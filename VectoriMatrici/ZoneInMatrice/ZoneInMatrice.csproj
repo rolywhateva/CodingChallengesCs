@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DFB52909-68D6-4F59-A9C0-3483F6DAEDC6}</ProjectGuid>
+    <ProjectGuid>{6F6588A6-FBEE-4559-A8FA-7D0914440359}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hackerrank</RootNamespace>
-    <AssemblyName>Hackerrank</AssemblyName>
+    <RootNamespace>ZoneInMatrice</RootNamespace>
+    <AssemblyName>ZoneInMatrice</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Hackerrank.EqualizeTheArray</StartupObject>
+    <StartupObject>ZoneInMatrice.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,22 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACMICPCTeam.cs" />
-    <Compile Include="AppendAndDelete.cs" />
-    <Compile Include="BiggerisGreater.cs" />
-    <Compile Include="EqualizeTheArray.cs" />
-    <Compile Include="JumpingontheCloudsRevisited.cs" />
-    <Compile Include="NonDivisibleSubset.cs" />
-    <Compile Include="SaveThePrisoner.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SequenceEquation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="IN.txt" />
-    <Content Include="Out.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

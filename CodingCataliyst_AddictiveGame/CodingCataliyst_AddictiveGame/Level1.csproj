@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DFB52909-68D6-4F59-A9C0-3483F6DAEDC6}</ProjectGuid>
+    <ProjectGuid>{41BD769B-CDB1-42EF-9E58-8C4F6FE2D32E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hackerrank</RootNamespace>
-    <AssemblyName>Hackerrank</AssemblyName>
+    <RootNamespace>CodingCataliyst_AddictiveGame</RootNamespace>
+    <AssemblyName>CodingCataliyst_AddictiveGame</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Hackerrank.EqualizeTheArray</StartupObject>
+    <StartupObject>CodingCataliyst_AddictiveGame.Level3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,22 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACMICPCTeam.cs" />
-    <Compile Include="AppendAndDelete.cs" />
-    <Compile Include="BiggerisGreater.cs" />
-    <Compile Include="EqualizeTheArray.cs" />
-    <Compile Include="JumpingontheCloudsRevisited.cs" />
-    <Compile Include="NonDivisibleSubset.cs" />
-    <Compile Include="SaveThePrisoner.cs" />
+    <Compile Include="Level1.cs" />
+    <Compile Include="Level2.cs" />
+    <Compile Include="Level3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SequenceEquation.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="IN.txt" />
-    <Content Include="Out.txt" />
+    <None Include="Date.in" />
+    <None Include="Date.out" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

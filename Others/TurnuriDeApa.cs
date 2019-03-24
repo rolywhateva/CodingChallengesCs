@@ -60,11 +60,39 @@ namespace Others
 
           
         }
+        static int Sol2(int[] a)
+        {
+            int max, s, s1, s2, stotal, curent, p;
+            max = s = s1 = s2 = stotal = curent =p= 0;
+            for(int i=0;i<a.Length;i++)
+                 if(a[i]>=max)
+                {
+                    stotal = s + s1;
+                    max = a[i];
+                    p = i;
+                    s = s1 = s2 = 0;
+                    curent = i;
+                    
+                }else
+                {
+                    s = s + max - a[i];
+                    if (a[i] > 0)
+                        s1 += max * (i - p - 1);
+                    s2 += Math.Min(a[curent], a[i]) * (i - curent - 1);
+                    curent = i;
+                }
+            if (s2 != 0)
+                stotal = stotal + s2;
+            return stotal;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine(Sol1(new int[] { 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 4, 0, 0, 3 }));
+            Console.WriteLine(Sol2(new int[] { 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 4, 0, 0, 3 }));
             Console.WriteLine(Sol1(new int[] { 4, 0, 2, 0, 1, 0, 2, 0, 3, 0, 3, 0, 4, 0, 1 }));
+            Console.WriteLine(Sol2(new int[] { 4, 0, 2, 0, 1, 0, 2, 0, 3, 0, 3, 0, 4, 0, 1 }));
             Console.WriteLine(Sol1(new int[] { 0, 0, 0, 1, 0, 0, 0 }));
+            Console.WriteLine(Sol2(new int[] { 0, 0, 0, 1, 0, 0, 0 }));
             Console.ReadKey();
         }
     }
