@@ -8,7 +8,10 @@ namespace Greedy
 {
     class KChanges
     {
-         static int Sum(int[] a)
+        /*
+         * https://www.geeksforgeeks.org/maximize-array-sun-after-k-negation-operations/
+         * */
+        static int Sum(int[] a)
         {
             int s = 0;
             for (int i = 0; i < a.Length; i++)
@@ -38,6 +41,9 @@ namespace Greedy
         {
             Console.WriteLine(Sol1(new int[] { 0, 3, 4 },3));
             Console.WriteLine(Sol1(new int[] {1,2,4 },3));
+            Console.WriteLine(Sol1(new int[] {-5,2,3,-4 },2));
+            Console.WriteLine(Sol1(new int[] { -5, 2, 3,0, -4 }, 3));
+            Console.WriteLine(Sol1(new int[] { -5, 2, 3, 1, -4 }, 5));
         }
     }
 }

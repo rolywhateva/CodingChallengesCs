@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F16C1A9F-C207-467F-AED5-0A918146FBB1}</ProjectGuid>
+    <ProjectGuid>{99800B38-B6C9-4F67-A2D0-925DDDB90A79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Greedy</RootNamespace>
-    <AssemblyName>Greedy</AssemblyName>
+    <RootNamespace>Permutari3</RootNamespace>
+    <AssemblyName>Permutari3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Greedy.KChanges</StartupObject>
+    <StartupObject>Permutari3.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KChanges.cs" />
-    <Compile Include="MinDif.cs" />
-    <Compile Include="SubmultimeCuProdusMinim.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

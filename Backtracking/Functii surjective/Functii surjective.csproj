@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F16C1A9F-C207-467F-AED5-0A918146FBB1}</ProjectGuid>
+    <ProjectGuid>{F14954D7-C308-439B-8AD6-8BDCF9286289}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Greedy</RootNamespace>
-    <AssemblyName>Greedy</AssemblyName>
+    <RootNamespace>Functii_surjective</RootNamespace>
+    <AssemblyName>Functii surjective</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Greedy.KChanges</StartupObject>
+    <StartupObject>Functii_surjective.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KChanges.cs" />
-    <Compile Include="MinDif.cs" />
-    <Compile Include="SubmultimeCuProdusMinim.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

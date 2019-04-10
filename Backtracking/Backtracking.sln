@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermutariLexicografice", "Backtracking\PermutariLexicografice.csproj", "{B3478A15-229B-47BB-91FC-89EEEFBD67F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutari2", "Permutari2\Permutari2.csproj", "{6F8CB1CE-BE7E-4691-8DC0-9FEDF211F941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutari3", "Permutari3\Permutari3.csproj", "{99800B38-B6C9-4F67-A2D0-925DDDB90A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Partitii", "Partitii\Partitii.csproj", "{2883E505-CBE1-4D0F-840D-206B60433AA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functii injective", "Functii injective\Functii injective.csproj", "{6534FE2B-747C-4749-925C-9763DA445BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functii surjective", "Functii surjective\Functii surjective.csproj", "{F14954D7-C308-439B-8AD6-8BDCF9286289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3478A15-229B-47BB-91FC-89EEEFBD67F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3478A15-229B-47BB-91FC-89EEEFBD67F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3478A15-229B-47BB-91FC-89EEEFBD67F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3478A15-229B-47BB-91FC-89EEEFBD67F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8CB1CE-BE7E-4691-8DC0-9FEDF211F941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8CB1CE-BE7E-4691-8DC0-9FEDF211F941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8CB1CE-BE7E-4691-8DC0-9FEDF211F941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8CB1CE-BE7E-4691-8DC0-9FEDF211F941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99800B38-B6C9-4F67-A2D0-925DDDB90A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99800B38-B6C9-4F67-A2D0-925DDDB90A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99800B38-B6C9-4F67-A2D0-925DDDB90A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99800B38-B6C9-4F67-A2D0-925DDDB90A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2883E505-CBE1-4D0F-840D-206B60433AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883E505-CBE1-4D0F-840D-206B60433AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883E505-CBE1-4D0F-840D-206B60433AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883E505-CBE1-4D0F-840D-206B60433AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6534FE2B-747C-4749-925C-9763DA445BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6534FE2B-747C-4749-925C-9763DA445BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6534FE2B-747C-4749-925C-9763DA445BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6534FE2B-747C-4749-925C-9763DA445BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14954D7-C308-439B-8AD6-8BDCF9286289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14954D7-C308-439B-8AD6-8BDCF9286289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14954D7-C308-439B-8AD6-8BDCF9286289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14954D7-C308-439B-8AD6-8BDCF9286289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25BB34C1-EAB8-43AD-AD8D-9BC1639FD4C5}
+	EndGlobalSection
+EndGlobal
