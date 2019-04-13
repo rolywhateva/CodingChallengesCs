@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F16C1A9F-C207-467F-AED5-0A918146FBB1}</ProjectGuid>
+    <ProjectGuid>{97298BCF-F6BB-49BE-ADDD-E62FFC45679B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Greedy</RootNamespace>
-    <AssemblyName>Greedy</AssemblyName>
+    <RootNamespace>Shuffle</RootNamespace>
+    <AssemblyName>Shuffle</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Greedy.NrMinimDePartitii</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,12 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KChanges.cs" />
-    <Compile Include="MinDif.cs" />
-    <Compile Include="NrMinimDePartitii.cs" />
-    <Compile Include="Plopi.cs" />
-    <Compile Include="ProdusMaximPosibil.cs" />
-    <Compile Include="SubmultimeCuProdusMinim.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

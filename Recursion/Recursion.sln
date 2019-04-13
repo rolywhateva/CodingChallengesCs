@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortariRecursive", "Recursion\SortariRecursive.csproj", "{97B1AECD-825F-4593-960E-B4C82AEAFE1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "DFS\DFS.csproj", "{26AC2054-2D82-4E5F-86A1-FDDF9BA59DE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97B1AECD-825F-4593-960E-B4C82AEAFE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B1AECD-825F-4593-960E-B4C82AEAFE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B1AECD-825F-4593-960E-B4C82AEAFE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B1AECD-825F-4593-960E-B4C82AEAFE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26AC2054-2D82-4E5F-86A1-FDDF9BA59DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AC2054-2D82-4E5F-86A1-FDDF9BA59DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AC2054-2D82-4E5F-86A1-FDDF9BA59DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AC2054-2D82-4E5F-86A1-FDDF9BA59DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A74F5AA-3F78-4257-8221-35535C677474}
+	EndGlobalSection
+EndGlobal
