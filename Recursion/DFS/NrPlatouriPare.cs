@@ -18,11 +18,14 @@ namespace DFS
 
 
                 b[i, j] = true;
+             
+                
                     lg++;
                     PA(a, b, i, j - 1);
                     PA(a, b, i, j + 1);
                     PA(a, b, i + 1, j);
                     PA(a, b, i - 1, j);
+                
                 
             }
         }
@@ -34,7 +37,7 @@ namespace DFS
             Random rnd = new Random();
             for (int i = 0; i <n; i++)
                 for (int j = 0; j < m; j++)
-                    a[i, j] = rnd.Next() % 10;
+                    a[i, j] = rnd.Next() % 20;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)

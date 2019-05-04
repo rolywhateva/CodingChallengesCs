@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F16C1A9F-C207-467F-AED5-0A918146FBB1}</ProjectGuid>
+    <ProjectGuid>{7174C10B-1DB2-4867-BF23-F2313CD314FA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Greedy</RootNamespace>
-    <AssemblyName>Greedy</AssemblyName>
+    <RootNamespace>PermutariMultimiOarecare</RootNamespace>
+    <AssemblyName>PermutariMultimiOarecare</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Greedy.LargestPermutation</StartupObject>
+    <StartupObject>PermutariMultimiOarecare.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,13 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KChanges.cs" />
-    <Compile Include="LargestPermutation.cs" />
-    <Compile Include="MinDif.cs" />
-    <Compile Include="NrMinimDePartitii.cs" />
-    <Compile Include="Plopi.cs" />
-    <Compile Include="ProdusMaximPosibil.cs" />
-    <Compile Include="SubmultimeCuProdusMinim.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

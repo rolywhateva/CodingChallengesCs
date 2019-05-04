@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DFS.NrPlatouriPare</StartupObject>
+    <StartupObject>DFS.RegiuniPareImpare</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NrPlatouriCuElEgale.cs" />
     <Compile Include="NrPlatouriPare.cs" />
     <Compile Include="PlatouPrime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegiuniPareImpare.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Intrare.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
